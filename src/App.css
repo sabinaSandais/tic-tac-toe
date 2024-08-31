@@ -18,9 +18,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
 .left,
 .right {
-  height: 30px;
-  width: 30px;
+  height: 70px;
+  width: 120px;
   background-color: red;
 }
