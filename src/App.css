@@ -10,8 +10,11 @@
 .game-heading {
   padding: 5px 20px;
   border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
 }
 .square-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
