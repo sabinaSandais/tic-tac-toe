@@ -10,6 +10,10 @@ const renderFrom = [
 const App = () => {
   return (
     <div className="main-div">
+      <div className="move-detection">
+        <div className="left"></div>
+        <div className="right"></div>
+      </div>
       <div>
         <h1 className="game-heading water-background">Tic Tac Toe</h1>
 
