@@ -2,6 +2,11 @@ import React from "react";
 import "./App.css";
 import Square from "./Square/Square";
 
+const renderFrom = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 const App = () => {
   return (
     <div className="main-div">
@@ -9,7 +14,11 @@ const App = () => {
         <h1 className="game-heading water-background">Tic Tac Toe</h1>
 
         <div className="square-wrapper">
-          <Square />
+          {renderFrom.map((arr) =>
+            arr.map((e) => {
+              return <Square />;
+            })
+          )}
         </div>
       </div>
     </div>
