@@ -11,3 +11,7 @@
   padding: 5px 20px;
   border-radius: 5px;
 }
+.square-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
