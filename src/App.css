@@ -20,12 +20,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-.move-detection {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 500px;
-}
 
 .left,
 .right {
