@@ -5,6 +5,7 @@ import "./App.css";
 import Square from "./Square/Square";
 
 const renderFrom = [
+  [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9],
 ];
