@@ -1,8 +1,8 @@
 import React from "react";
 import "./Square.css";
 
-const Square = () => {
-  return <div className="square"></div>;
-};
+// const Square = () => {
+//   return <div className="square"></div>;
+// };
 
-export default Square;
+// export default Square;
