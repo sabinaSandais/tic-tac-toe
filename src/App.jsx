@@ -1,3 +1,4 @@
+//at minute 32
 import React from "react";
 import "./App.css";
 import Square from "./Square/Square";
