@@ -20,7 +20,7 @@ const App = () => {
         <h1 className="game-heading water-background">Tic Tac Toe</h1>
 
         <div className="square-wrapper">
-          {renderFrom.map((arr) =>
+          {gameState.map((arr) =>
             arr.map((e) => {
               return <Square />;
             })
