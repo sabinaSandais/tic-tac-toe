@@ -9,6 +9,7 @@ const renderFrom = [
   [7, 8, 9],
 ];
 const App = () => {
+  const [gameState, setGameState] = useState(renderFrom);
   return (
     <div className="main-div">
       <div className="move-detection">
