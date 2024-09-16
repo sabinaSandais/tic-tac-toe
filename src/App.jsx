@@ -1,4 +1,5 @@
 //at minute 32
+import { useState } from "react";
 import React from "react";
 import "./App.css";
 import Square from "./Square/Square";
